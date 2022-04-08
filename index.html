@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Problem1.js"></script>
+    <script src="Problem2.js"></script>
+    <script src="Problem3.js"></script>
+    <script src="Problem4.js"></script>
+    <script src="Problem5.js"></script>
+    <script src="Problem6.js"></script>
+    <script src="Problem7.js"></script>
+    <script src="Problem8.js"></script>
+    <script src="Problem9.js"></script>
+    <script src="Problem10.js"></script>
+    <script src="Problem11.js"></script>
+    <script src="Problem12.js"></script>     
+    <script src="Problem13.js"></script>
+    <script src="Problem14.js"></script>
+    <script src="Problem15.js"></script>
+  </head>
+  <body>
+   
+    <center><h1 class="mainhead">*~ JS Basic Programming Assignment ~*</h1></center>
+    
+    <div class="container"> 
+    <h2>1] Print the factorial of the integer.</h2>
+    <ul><label>Enter an integer:</label>
+    <input type="number" id="number1"><br><br>
+     <div class="button-text">
+    <button class="button-text" onclick="Factorial()">Submit</button></ul>
+    <ul><li class="statement" id="ans1"></li></ul></div></div>
+
+    <div class="container"> 
+      <h2>2] Find the cube of the number.</h2>
+      <ul><label>Enter a number:</label>
+      <input type="number" id="number2"><br><br>
+        <div class="button-text"> 
+      <button onclick="Cube()">Submit</button></ul>
+    <ul><li class="statement" id="ans2"></li></ul> </div></div>
+
+    <div class="container"> 
+      <h2>3] Find the area of equilateral triangle.</h2>
+      <ul><label>Enter a side:</label>
+      <input type="number" id="number3"><br><br>
+        <div class="button-text"> 
+      <button onclick="Area()">Submit</button></ul>
+    <ul><li class="statement">The area of equilateral triangle of entered side is: <b id="ans3"></b></li></ul></div></div>
+
+     <div class="container"> 
+      <h2>4] Print the number of days in the month.</h2>
+      <ul><label>Enter a month:</label>
+      <input type="text" id="day"><br><br>
+        <div class="button-text"> 
+      <button onclick="daysInMonth()">Submit</button></ul>
+    
+    <ul><li class="statement">The number of days in the entered month are: <b id="ans4"></b></li></ul></div></div>
+
+    <div class="container"> 
+      <h2>5] Convert the temperature from celcius to fahrenheit.</h2>
+      <ul><label>Enter the temperature in celsius:</label>
+      <input type="number" id="number5"> C <br><br>
+        <div class="button-text"> 
+      <button onclick="convert()">Convert</button></ul>
+    
+    <ul><li class="statement">The temperature in fahrenheit of entered temperature in celsius is: <b id="ans5"></b></li></ul></div></div>
+
+    <div class="container"> 
+      <h2>6] Print the sum of values from 1 to N.</h2>
+      <ul><label>Enter an integer:</label>
+      <input type="number" id="number6"><br><br>
+        <div class="button-text"> 
+      <button onclick="calculate()">Calculate</button></ul>
+    
+   <ul><li class="statement" id="ans6"></li></ul></div></div>
+
+    <div class="container"> 
+      <h2>7] Find the Nth term of the series.</h2>
+      <ul><label>Enter an integer:</label>
+      <input type="number" id="number7"><br><br>
+        <div class="button-text"> 
+      <button onclick="submit()">Submit</button></ul>
+    
+ <ul><li class="statement" id="ans7"></li></ul></div></div>
+
+    <div class="container"> 
+      <h2>8] Remove all the whitespaces and find it's length.</h2>
+      <ul><label>Enter a string:</label>
+      <input type="text" id="number8"><br><br>
+        <div class="button-text"> 
+      <button onclick="removeWhitespaces()">Submit</button></ul>
+    
+ <ul><li class="statement" id="ans8"></li></ul></div></div>
+
+     <div class="container"> 
+      <h2>9] Find all of the roots of the quadratic.</h2>
+      <ul><label>Enter 1st number:</label>
+          <input type="number" id="num1"><br>
+          <label>Enter 2nd number:</label>
+          <input type="number" id="num2"><br>
+          <label>Enter 3rd number:</label>
+          <input type="number" id="num3"><br><br>
+        <div class="button-text"> 
+          <button onclick="roots()">Roots</button></ul>
+     <ul><li class="statement">1st root of equation is: <b id="ans9-1"></b></li>
+       <li class="statement">2nd root of equation is: <b id="ans9-2"></b></li></ul></div></div>
+
+    <div class="container">
+      <h2>10] Rearrange the elements in an array in a specific manner.</h2>
+      <ul><label>Enter an array:</label>
+      <input type="number" id="number10"><br><br>
+        <div class="button-text"> 
+      <button onclick="sort()">Sort</button></ul>
+    <ul><li class="statement">The sorted array is: <b id="ans10"></b></li></ul></div></div>
+
+    <div class="container"> 
+      <h2>11] Find the number of occurences of each element and print it in the decreasing order of occurences.</h2>
+      <ul><label>Enter the number:</label>
+      <input type="number" id="number11"><br><br>
+        <div class="button-text"> 
+      <button onclick="occur()">Submit</button></ul>
+    <ul><li class="statement" id="ans11"></li></ul></div></div>
+
+    <div class="container"> 
+      <h2>12] Count all palindromic numbers present in the range.</h2>
+      <ul><label>Enter the range:</label>
+      <input type="text" id="number12"><br><br>
+        <div class="button-text"> 
+      <button onclick="palindrome()">Count</button></ul>
+    <ul><li class="statement">The number of palindromes are: <b id="ans12"></b></li></ul></div></div>
+
+    <div class="container"> 
+      <h2>13] Print the nth number of series.</h2>
+      <ul><label>Enter an integer:</label>
+      <input type="number" id="number13"><br><br>
+        <div class="button-text"> 
+      <button onclick="nterm()">Print</button></ul>
+    <ul><li class="statement" id="ans13"></li></ul></div></div>
+
+    <div class="container"> 
+      <h2>14] To print the left rotated array.</h2>
+      <ul><label>Enter 1st array:</label>
+      <input type="text" id="number14-1"><br>
+        <label>Enter 2nd array:</label>
+      <input type="text" id="number14-2"><br><br>
+        <div class="button-text"> 
+      <button onclick="leftrotarr()">Print</button></ul>
+    <ul><li class="statement">The left rotated array is: <b id="ans14"></b></li></ul></div></div>
+
+    <div class="container"> 
+      <h2>15] Evaluate the postfix expression and print the result.</h2>
+      <ul><label>Enter an array:</label>
+      <input type="number" id="number15"><br><br>
+        <div class="button-text"> 
+      <button onclick="postfix()">Print</button></ul>
+    <ul><li class="statement">The left rotated array is: <b id="ans15"></b></li></ul></div></div>
+  
+    <center><h2 class="end">* Thanks *</h2></center>
+  
+  </body>
+</html>
