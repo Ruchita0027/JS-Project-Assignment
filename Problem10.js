@@ -1,23 +1,29 @@
-function sort() {
-  var num=document.getElementById("number10").value;
-  var arr=num.toString().split('');
+function Sort(){
+  
+  var n = document.getElementById("number10").value;
+  
+  var arr = n.toString().split('');
+
   arr.shift(0);
+  
   console.log(arr);
-  var even=[];
-  for(var i=0;i<arr.length;i+=2)
-    {
-      even.push(arr[i]);
-    }
+
+  var even =[];
+  
+  for(var i=0; i < arr.length; i+=2)
+  {
+    even.push(arr[i]);
+  }
+
   even.sort();
 
   var j=0;
-  for(var i=0;i<=arr.length;i+=2) {
-    arr[i]=even[j];
+  for(var i=0; i < arr.length; i+=2){
+    arr[i] = even[j];
     j+=1;
   }
+  
+  var answer10 = document.getElementById ('ans10');
+  answer10.innerHTML = arr;
+}
 
-  var result=document.getElementById('ans10');
-  result.innerHTML=arr;
-} 
-  
-  
